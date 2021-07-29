@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&display=swap');
+
+
+nav {
+	background-color: #a6a19f;
+	height: 80px;
+	width: 100%;
+	position: relative;
+}
+footer {
+	background-color: #a6a19f;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+}
+* {
+	box-sizing: border-box;
+}
+
+.logo {
+	color: black;
+	font-size: 35px;
+	line-height: 75px;
+	padding: 0 50px;
+	font-weight: bold;
+	position: absolute;
+	font-stretch: expanded;	
+} 
+
+nav ul {
+	display: none;
+	list-style-type: none;
+} 
+
+nav ul li {
+	display: inline-flex;
+	line-height: 199px;
+	margin: 0px 5px;
+	
+}
+
+nav ul li a {
+	color: black;
+	font-size: 17px;
+	padding: 4px 30px;
+	text-decoration: none;	
+}
+
+nav a:hover {
+	background: whitesmoke;
+} 
+
+
+body{
+	/* margin-left: 150px;
+	margin-right: 150px; */
+	background: #4f4642;
+	font-family: 'Poppins', sans-serif;
+}	
+
+p {
+	text-align: center;
+}
+
+#sikmak {
+	font-weight: bold;
+	text-align: center;	
+	font-stretch: expanded; 
+	font-family: 'Patrick Hand', cursive;
+	/* background-color: #a6a19f; */	
+}
+
+.now {
+	margin: auto;
+}
+
+.green {
+	font-weight: bold;
+	color: green;
+}
+
+.kaisen {
+	text-decoration-line: underline;
+	text-decoration-color: green;
+}
+
+span {
+	font-style: italic;
+}
+
+.center {
+	width: 88%;
+	height: auto;
+	border-radius: 50%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+.center2 {
+	width: 95%;
+	height: auto;
+	border-radius: 75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* https://techforluddites.com/replacing-list-bullets-with-images-using-css/ */
+ul.a {
+	list-style-type: square;
+	background-color: blanchedalmond;
+	margin: auto;
+	border-radius: 10px;
+
+}	
+	
+ol.roman {
+	list-style-type: upper-roman;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+}
+
+h2, h3{
+	padding: 10px;
+}		
+
+.bawah {
+	text-decoration: none;
+	color: green;
+}
+
+
+/* ============================================================================ */
+/* ===================================tablet styles============================ */
+/* ============================================================================ */
+
+@media screen and (min-width: 401px) {
+	
+	body {
+		background-color: #a88332;
+	}
+	nav {
+		background-color: #f5dd42;
+	}
+
+	footer {
+		background-color: #f5dd42;
+	}
+	.green {
+		color: #b01515;
+	}
+	.kaisen {
+		text-decoration-color: #b01515;
+	}
+	.bawah {
+		color: #b01515;
+	}
+}
+
+
+/* ============================================================================ */
+/* ==================================desktop styles============================ */
+/* ============================================================================ */
+
+@media screen and (min-width: 700px) {
+	body{
+		background: #5d84c2;	
+	}
+	nav {
+		background-color: #284675;
+	}
+	footer {
+		background-color: #284675;
+	}
+	#sikmak {
+		background-color: #284675;
+	}
+	nav ul {
+		display: block;
+		float: right;
+		margin-right: 20px;
+		list-style-type: none;
+	}
+	nav ul li {
+		display: inline-block;
+		line-height: 55px;
+		margin: 0 5px;
+	}
+	nav ul li a {
+		color: black;
+		font-size: 17px;
+		padding: 17px 13px;
+		text-decoration: none;	
+	}
+	
+	nav a:hover {
+		background: whitesmoke;
+	}
+	ul.a {
+		background-color: #284675;
+	}	
+	
+	ol.roman {
+		background-color: #284675;
+	}
+	.green {
+		color: #28663f;
+	}
+	.kaisen {
+		text-decoration-color: #28663f;
+	}
+	.bawah {
+		color: #28663f;
+	}
+	.hehe {
+		display: flex;
+		flex-direction: row;
+    	justify-content: space-evenly;
+		align-items: center
+	}
+	.huhu {
+		padding-left: 20px;
+	}
+	.center {
+		width: 95%;
+		margin: 207px 20px;
+	}
+	.center2 {
+		width: 80%;
+		height: auto;
+	}
+	
+}
